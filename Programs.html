@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      margin-bottom: 0;
+    }
+   
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="Website_Project.html">Home</a></li>
+        <li><a href="Programs.html">Programs</a></li>
+        <li><a href="AboutMe.html">About</a></li>
+        <li><a href="ContactMe.html">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">John The Ripper</div>
+        <div class="panel-body"><img src="https://www.techspot.com/images2/downloads/topdownload/2017/05/jtr.png" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">John The Ripper is a hacking program designed to crack encyrpted passwords.</div>
+      </div>
+    </div>
+
+<div class="container">    
+  <div class="row"> 
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">WireShark</div>
+        <div class="panel-body"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Wireshark_Logo.svg/2000px-Wireshark_Logo.svg.png" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Wireshark is a free and open source packet analyzer. It is used for network troubleshooting, analysis, software and communications protocol development, and education</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading">w3af</div>
+        <div class="panel-body"><img src="http://3.bp.blogspot.com/-NNTwgHpnApg/Td1puKij_GI/AAAAAAAAAp4/Jy-GYPo7f8E/s1600/w3af-logo.jpgs" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">w3af is an open-source web application security scanner. The project provides a vulnerability scanner and exploitation tool for Web applications. It provides information about security vulnerabilities for use in penetration testing engagements</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading">Kali Linux</div>
+        <div class="panel-body"><img src="https://ih1.redbubble.net/image.334365842.4085/flat,800x800,075,f.u5.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Kali Linux is a Debian-derived Linux distribution designed for digital forensics and penetration testing</div>
+      </div>
+    </div>
+  </div>
+</div><br><br>
+
+<footer class="container-fluid text-center">
+  <p>Online Store Copyright</p>  
+  <form class="form-inline">Get deals:
+    <input type="email" class="form-control" size="50" placeholder="Email Address">
+    <button type="button" class="btn btn-danger">Sign Up</button>
+  </form>
+</footer>
+
+</body>
+</html>
